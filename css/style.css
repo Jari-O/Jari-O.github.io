@@ -23,7 +23,7 @@ nav{
     border-bottom: #AAA solid 2px;
 }
 
-ul{
+.navUl{
     list-style: none;
     column-gap: 2%;
     display: flex;
@@ -53,6 +53,7 @@ section{
 }
 
 .lists{
+    list-style: none;
     margin: 2%;
     padding-bottom: 5%;
     display: flex;
@@ -93,4 +94,31 @@ footer{
     background-color: #EEE;
     border-top: #AAA solid 2px;
     height: 100%;
+}
+
+/* CV section */
+
+.cvArea{
+    border: 2px black solid;
+    border-radius: 10px;
+    padding: 3%;
+    margin: 1%;
+}
+
+details{
+    margin: 2%;
+}
+
+summary{
+    font-size: 1.5em;
+}
+
+.cvUl{
+    list-style: none;
+    column-gap: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2%;
 }
