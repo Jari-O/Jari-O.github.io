@@ -72,15 +72,15 @@ main{
 
 .homePageArea{
     width: 100%;
-    /*background: rgb(96,118,164);
-    background: linear-gradient(0deg, rgba(96,118,164,1) 0%, rgba(210,233,255,1) 100%);*/
-    background: rgb(238,238,238);
-    background: linear-gradient(0deg, rgba(238,238,238,1) 0%, rgba(255,255,255,1) 100%);
     padding: 5%;
 }
 
 .homePageText{
     text-align: center;
+}
+
+.subHomePageArea{
+    margin-top: 1%;
 }
 
 
