@@ -71,9 +71,18 @@ main{
 }
 
 .mainAlt{
-    grid-column: 3/10;
+    grid-column: 3/8;
     display: flex;
     flex-direction: column;
+}
+
+.homeImgBar{
+    grid-column: 8/11;
+    max-width: 100%;
+}
+
+.homeImg{
+    width: 100%;
 }
 
 .homePageArea{
